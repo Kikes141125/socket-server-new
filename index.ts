@@ -4,7 +4,7 @@ import cors from 'cors';
 // import bodyParser from 'body-parser';
 import express from 'express';
 
-const server= new Server();
+const server= Server.instance;
 
 
 //Passing body parser
